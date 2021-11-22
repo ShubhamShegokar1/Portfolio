@@ -9,7 +9,7 @@ body
     text-align: center;
     font-size: 20px;
     color: rgb(80, 77, 77);
-    background-color: rgb(36, 35, 35);
+    background-color: white;
 }
 
 
@@ -17,8 +17,7 @@ body
 {
     border:cyan 3px solid;
     color: cyan;
-    border-top-color: blue;
-    transition: all 1s linear;
+    transition: all 2s linear;
     transform: rotate(360deg);
 }
 .resume:hover
@@ -44,10 +43,13 @@ body
         grid-template: 'a b c'
                        'e f g';
     }
-    .About
+    .about
     {
-      grid-template:'a b';
+      display: flex;
+      flex-direction: row;
     }
+  
+  
 }
 
 @media screen and ((min-width:100px)and( max-width:999px))
@@ -62,11 +64,6 @@ body
       display:hidden;
   }
 
-  .about
-  {
-    grid-template:'b'
-                  'a';
-  }
   .skills{
       grid-template: 'a'
                       'b'
@@ -74,17 +71,41 @@ body
                       'd'
                       'e'
                       'f';
+                
   }
+
 }
 
+@media (min-width: 1000px) {
+  .about {
+    flex-direction: row;
+  }
+/* 
+  .about>:first-child{
+     width: 40%;
+  } */
+}
+
+@media ( max-width:999px)
+{
+  .about {
+    flex-direction: column;
+    height: 1030px ;
+  }
+  .about>:first-child{
+    width: 100%;
+ } 
+  /* .skillsDiv{
+    margin-top: 33% !important;
+  } */
+}
 
 /******************************************* */ 
 
 .Navbar
 {
     display: flex;
-    margin-top: 2%;
-    box-shadow: 10px 10px 5px rgb(37, 11, 110);
+    margin-top: 2%; 
     padding-right: 5%;
 }
 
@@ -108,27 +129,46 @@ body
     cursor: pointer;
     border: 2px solid rgb(53, 39, 90);
 } 
+
+
+#creativeName {
+  color:#fff;
+}
+
+#creativeName {     
+  color: rgb(80, 77, 77); 
+  text-decoration: none;
+}
+
 /************************************************************************************* */ 
 .about
 {
-  display: grid;
-  height: 900px;
+  height: 300px;
+  margin-top: 5%;
+  display: flex;
 }
 
-.aboutIntro
+.about div
 {
-  grid-area: a;
-  
+  flex-grow: 1;
 }
-.about>:last-child
+
+.about h2 h3
 {
-  grid-area: b;
+  text-align: justify;
 }
 .ProfileImg
 {
-  border : 5px solid rgb(245, 245, 92);
-  border-radius: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
 }
+.aboutIntro
+{
+  text-align: left;
+  margin-left: 5%;
+}
+
 .aboutIntro h1{
     color: #484848;
     font-size: 20px;
@@ -143,21 +183,21 @@ body
   {
       display: grid;
       width: 90%;
-      grid-gap:50px;
+      grid-gap:0px 80px;
       margin: auto;
   }
+
+  .skills img{
+    width: 60px;
+  }
  
-  .skill
+  .skills div
   {
-      display: flex;
-      font-size: 28px;
-      background-color: rgb(26, 23, 41);
-      border-radius: 20px;
-      height: 70px;
+      background-color: rgb(37, 32, 56);
+      color: rgb(240, 238, 240);
+      font-size: 25px;
   }
-  .skill >:first-child{
-     width: 30%;
-  }
+
   .skill>:first-child
   {
     grid-area: a;
@@ -191,9 +231,14 @@ body
   /**********************************************************/
 
 
-  .skills h1 
+   h1 
   {
     font-size: 50px;
     font-weight: 700;
     color: gray;
   }
+
+    /**********************************************************/
+
+
+   
