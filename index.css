@@ -52,53 +52,6 @@ body
   
 }
 
-@media screen and ((min-width:100px)and( max-width:999px))
-{
-
-  .menu
-  {
-      display: block;
-  }
-  .NavbarHeading div
-  {
-      display:hidden;
-  }
-
-  .skills{
-      grid-template: 'a'
-                      'b'
-                      'c'
-                      'd'
-                      'e'
-                      'f';
-                
-  }
-
-}
-
-@media (min-width: 1000px) {
-  .about {
-    flex-direction: row;
-  }
-/* 
-  .about>:first-child{
-     width: 40%;
-  } */
-}
-
-@media ( max-width:999px)
-{
-  .about {
-    flex-direction: column;
-    height: 1030px ;
-  }
-  .about>:first-child{
-    width: 100%;
- } 
-  /* .skillsDiv{
-    margin-top: 33% !important;
-  } */
-}
 
 /******************************************* */ 
 
@@ -120,7 +73,7 @@ body
 
 .Navbar>:first-child
 {
-    padding-left: 10%;
+    padding-left:4%;
     text-align: left;
 }
 
@@ -148,21 +101,19 @@ body
   display: flex;
 }
 
-.about div
-{
-  flex-grow: 1;
-}
-
 .about h2 h3
 {
   text-align: justify;
 }
+
 .ProfileImg
 {
   border: 1px solid #ddd;
   border-radius: 8px;
+  height: 200px;
   padding: 15px;
 }
+
 .aboutIntro
 {
   text-align: left;
@@ -198,36 +149,6 @@ body
       font-size: 25px;
   }
 
-  .skill>:first-child
-  {
-    grid-area: a;
-  }
-
-  .skill>:nth-child(2)
-  {
-    grid-area: b;
-  }
-  .skill>:nth-child(3)
-  {
-    grid-area: c;
-  }
-  .skill>:nth-child(4)
-  {
-    grid-area: d;
-  }
-  .skill>:nth-child(5)
-  {
-    grid-area: e;
-  }
-  .skill>:nth-child(6)
-  {
-    grid-area: f;
-  }
- 
-  .skill img{
-      height: 70px;
-  }
-
   /**********************************************************/
 
 
@@ -240,5 +161,33 @@ body
 
     /**********************************************************/
 
+   .project{
+     border: 2px solid gray;
+     height: 350x;
+     width: 80%;
+     margin: auto;
+     margin-bottom: 2%;
+     display: flex;   
+    }
 
-   
+   .projectSnap {
+    height: 350x;
+    width: 50%;
+  }
+
+  .projectSnap img{
+    width: 100%;
+    margin: auto;
+    height: 350x;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .projectInfo
+  {
+    border: 2px solid blue;
+    height: 350x;
+    width: 50%;
+    text-align: left;
+    padding-left: 2%;
+  }
