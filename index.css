@@ -232,12 +232,22 @@ body
    margin: auto;
  }
 
+ .row div{
+   display: flex;
+ }
+
+ 
+
+ .row div div{
+  flex-grow: 1;
+}
+
  .connect div{
    margin-top: 2%;
  }
 
  .connect >:first-child{
-   width: 90%;
+   width: 50%;
    margin: auto;
    text-align: left;
  }
