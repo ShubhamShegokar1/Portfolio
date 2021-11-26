@@ -60,6 +60,7 @@ body
     display: flex;
     margin-top: 2%; 
     padding-right: 5%;
+    color: #091292;
 }
 
 .Navbar  div{
@@ -69,6 +70,7 @@ body
 .Navbar>:nth-last-child(2)
 {
     display: flex;
+    font-weight: 700;
 }
 
 .Navbar>:first-child
@@ -157,37 +159,85 @@ body
     font-size: 50px;
     font-weight: 700;
     color: gray;
+    padding : 2% 0 2% 0;
+    
   }
-
+ 
+  h2{
+     color: rgb(107, 105, 105);
+  }
     /**********************************************************/
-
+   
+    .projects{
+      font-size: 16px;
+    }
    .project{
-     border: 2px solid gray;
-     height: 350x;
-     width: 80%;
+     width: 90%;
      margin: auto;
-     margin-bottom: 2%;
-     display: flex;   
+     margin-bottom: 4%;
+     display: flex; 
+     height: 250px ;
+     border: 1px solid #091292;
+     border-top: none;
+     border-bottom-right-radius: 50px 20px;
+     border-bottom-left-radius:  50px 20px;
     }
 
    .projectSnap {
-    height: 350x;
     width: 50%;
   }
 
   .projectSnap img{
-    width: 100%;
+    width: 70%;
+    height: 250px;
+    padding:1%;
     margin: auto;
-    height: 350x;
     border-radius: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(170, 166, 166);  
   }
 
   .projectInfo
   {
-    border: 2px solid blue;
-    height: 350x;
+    /* border: 2px solid blue; */
+    /* height: 200x; */
     width: 50%;
     text-align: left;
-    padding-left: 2%;
+    /* padding-left: 3%; */
+    /* border: 1px solid  #091292; */
+
   }
+
+  .projectInfo img{
+    width: 20px;
+  }
+
+  .title{
+    font-weight: 800;
+    color: #091292;
+    font-size: 20px;
+    padding: 2% 0 1% 0;
+  }
+  .techStack{
+    font-weight: 800;
+  }
+  .areas{
+    padding: 1% 0 1% 0;
+    font-weight: 500;
+  }
+
+  /********************************************/
+
+ .row{
+   width: 90%;
+   margin: auto;
+ }
+
+ .connect div{
+   margin-top: 2%;
+ }
+
+ .connect >:first-child{
+   width: 90%;
+   margin: auto;
+   text-align: left;
+ }

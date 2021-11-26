@@ -23,6 +23,9 @@
   {
     width: 40%;
   }
+
+  
+  
 }
 
 @media screen and (min-width:100px) and (max-width:550px)
@@ -43,4 +46,41 @@
   }
 }
 
+@media screen and (min-width:100px) and (max-width:499px)
+{
 
+  .project {
+    flex-direction: column;
+    font-size: medium;
+    height: 500px;
+    margin-top: 15%;
+  }
+  .project div{
+    width: 100%; 
+   } 
+  
+   .projectSnap img{
+    width: 100%;
+   }
+}
+
+@media screen and (min-width:500px) and (max-width:999px)
+{
+  .project {
+    flex-direction: column;
+    font-size: medium;
+    height: 500px;
+    margin-top: 15%;
+  }
+  .project div{
+    width: 100%; 
+   } 
+  
+   .project>:last-child{
+     padding-left: 10%;
+   } 
+  
+  .projectSnap img{
+    width: 80%;
+   }
+}
