@@ -208,6 +208,10 @@ body
    width: 90%;
    margin: auto;
  }
+/* 
+ .row div :hover{
+  background-color: blue !important;
+ } */
 
  .row div{
    display: flex;
@@ -243,3 +247,4 @@ body
      font-size: medium;
      margin: 2% ;
    }
+

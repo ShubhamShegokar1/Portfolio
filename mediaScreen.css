@@ -64,6 +64,7 @@
   .about {
     height: 400px;
   }
+  
 }
 
 @media screen and (min-width:100px) and (max-width:499px)
@@ -120,6 +121,10 @@
   .projectSnap img{
     width: 80%;
    }   
-
+   .skills{
+    grid-template: 'a b'
+                   'c e'
+                    'f g';
+}
    
 }
