@@ -72,8 +72,19 @@
   .project {
     flex-direction: column;
     font-size: medium;
-    height: 550px;
     margin-top: 15%;
+  }
+  .projects>:first-child
+  {
+     height: 530px;
+  }
+  .projects>:nth-child(2)
+  {
+    height: 600px;
+  }
+
+  .projects>:last-child{
+    height: 580px;
   }
   .project div{
     width: 100%; 
