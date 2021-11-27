@@ -1,1 +1,1 @@
-https://github.com/ShubhamShegokar1/Portfolio
+https://shubhamshegokar1.github.io/Portfolio/
