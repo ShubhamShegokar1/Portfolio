@@ -8,7 +8,7 @@ body
     font-style: normal;
     text-align: center;
     font-size: 20px;
-    color: rgb(80, 77, 77);
+    color: #323896;
     background-color: white;
 }
 
@@ -29,31 +29,7 @@ body
 
 /***************************************************/
 
-
-@media screen and ( min-width:1000px)
-{
-    .NavbarHeading
-    {
-        display: block;
-    }
-    .menu{
-        display: none;
-    }
-    .skills{
-        grid-template: 'a b c'
-                       'e f g';
-    }
-    .about
-    {
-      display: flex;
-      flex-direction: row;
-    }
-  
-  
-}
-
-
-/******************************************* */ 
+ 
 
 .Navbar
 {
@@ -91,7 +67,7 @@ body
 }
 
 #creativeName {     
-  color: rgb(80, 77, 77); 
+  color: #091292;; 
   text-decoration: none;
 }
 
@@ -103,16 +79,17 @@ body
   display: flex;
 }
 
-.about h2 h3
+.about h2
 {
   text-align: justify;
+  font-weight: 600;
 }
 
 .ProfileImg
 {
   border: 1px solid #ddd;
   border-radius: 8px;
-  height: 200px;
+  height: 250px;
   padding: 15px;
 }
 
@@ -123,7 +100,7 @@ body
 }
 
 .aboutIntro h1{
-    color: #484848;
+    color:#091292;
     font-size: 20px;
     font-weight: bold;
     font-family: monospace;
@@ -146,8 +123,8 @@ body
  
   .skills div
   {
-      background-color: rgb(37, 32, 56);
-      color: rgb(240, 238, 240);
+      background-color: rgb(253, 253, 253);
+      color: #091292;
       font-size: 25px;
   }
 
@@ -158,13 +135,13 @@ body
   {
     font-size: 50px;
     font-weight: 700;
-    color: gray;
+    color: #091292;;
     padding : 2% 0 2% 0;
     
   }
  
   h2{
-     color: rgb(107, 105, 105);
+     color: #091292;;
   }
     /**********************************************************/
    
@@ -236,18 +213,33 @@ body
    display: flex;
  }
 
- 
-
- .row div div{
-  flex-grow: 1;
+ .row div:hover{
+  cursor: pointer;
 }
+
 
  .connect div{
    margin-top: 2%;
  }
 
- .connect >:first-child{
-   width: 50%;
-   margin: auto;
-   text-align: left;
- }
+ .rowImage 
+   {
+    width: 20%;
+   }
+   .rowImage img
+   {
+    width: 50%;
+   }
+
+   .rowImage + div
+   {
+     width: 80%;
+     font-size: medium;
+     text-align: right;
+   }
+
+   .copyright
+   {
+     font-size: medium;
+     margin: 2% ;
+   }

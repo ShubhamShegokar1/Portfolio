@@ -1,4 +1,27 @@
 
+
+@media screen and ( min-width:1000px)
+{
+    .NavbarHeading
+    {
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .skills{
+        grid-template: 'a b c'
+                       'e f g';
+    }
+    .about
+    {
+      display: flex;
+      flex-direction: row;
+    }
+  
+}
+
+
 @media screen and ((min-width:100px)and( max-width:999px))
 {
   .menu
@@ -23,9 +46,6 @@
   {
     width: 40%;
   }
-
-  
-  
 }
 
 @media screen and (min-width:100px) and (max-width:550px)
@@ -77,6 +97,7 @@
     height: 520px;
     margin-top: 15%;
   }
+
   .project div{
     width: 100%; 
    } 
@@ -87,9 +108,7 @@
   
   .projectSnap img{
     width: 80%;
-   }
+   }   
 
-   .social img{
-     width: 20px !important;
-   }
+   
 }

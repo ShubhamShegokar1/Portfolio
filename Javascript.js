@@ -54,3 +54,73 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+function resume(){
+  window.location="https://drive.google.com/file/d/1wVpD4JB9fk6_yE1jc1Ibgzy4shzP7hXt/view?usp=sharing"
+}
+
+function glassdoorDemo()
+{
+  window.location="https://drive.google.com/file/d/186qzxpWQsU4LI6HG04HXg7bCLemlusUJ/view?usp=sharing"
+}
+
+function expediaDemo()
+{
+  window.location="https://drive.google.com/file/d/186qzxpWQsU4LI6HG04HXg7bCLemlusUJ/view?usp=sharing"  
+}
+
+function nutritionappDemo(){
+  window.location="https://drive.google.com/file/d/1mgRK79YEAVChnHMY-WwMth3rwcKyJpaK/view?usp=sharing"  
+}
+
+function glassdoorGit(){
+  window.location="https://github.com/kapish33/Glassdoor"
+}
+
+
+function expediaGit(){
+  window.location="https://github.com/MukulHowale/expedia-clone"
+}
+
+function nutritionGit(){
+  window.location="https://github.com/ShubhamShegokar1/Nutrition-App"
+}
+
+function gmail()
+{
+  window.location="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shubhamsandy.1@gmail.com"
+}
+
+
+
+function goToProjects(e) {
+
+  window.location.href="#projects";
+  e.preventDefault();
+  e.stopPropagation(); 
+
+  }
+
+  
+
+function goToSkills(e) {
+
+  window.location.href="#skills";
+  e.preventDefault();
+  e.stopPropagation(); 
+
+  }
+
+  
+
+function goToContacts(e) {
+
+  window.location.href="#contacts";
+  e.preventDefault();
+  e.stopPropagation(); 
+
+  }
+
+  function whatsApp(){
+    window.location="https://api.whatsapp.com/send?phone=917774961299"
+  }
