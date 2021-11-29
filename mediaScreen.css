@@ -99,6 +99,18 @@
    {
      padding-left: 4%;
    }
+   .connectTo{
+     margin-bottom: 5% !important;
+   }
+
+   .social {
+     width: 90%;
+     margin: auto;
+   }
+   .social img{
+     width: 40px !important;
+   }
+
 }
 
 @media screen and (min-width:500px) and (max-width:999px)
@@ -128,3 +140,5 @@
 }
    
 }
+
+
