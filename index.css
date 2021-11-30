@@ -303,12 +303,18 @@ body {
  .row div{
    display: flex;
    text-align:center;
+   color: black;
  }
 
  .row div:hover{
   cursor: pointer;
 }
 
+.connectTo:hover{
+ border: 2px solid black !important;
+ color: black;
+ font-weight: 600;
+}
 
  .connect div{
    margin-top: 2%;
