@@ -17,23 +17,29 @@
 <body>
 
  
-
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        <img src="/favicon_io/android-chrome-512x512.png" alt="">
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a onclick="goToSkills()" target="_blank">Skills</a>
+      <a onclick="goToProjects()" target="_blank">Projects</a>
+      <a onclick="goToContacts()" target="_blank">Contacts</a>
+      <a onclick="resume()" target="_blank">Resume</a>
+    </div>
+  </div>
   
-
-    <div class="Navbar">
-      <div class="">Shubham Shegokar</div>
-      <div class="NavbarHeading" >
-      <div>About</div>
-      <div onclick="goToSkills()">Skills</div>
-      <div onclick="goToProjects()">Projects</div>
-      <div onclick="goToContacts()">Contact</div>
-      <div class="resume" onclick="resume()">Resume</div>
-    </div>
-    <div class="menu" id="menu"><img src="/menu.svg" >
-    </div>
-    </div>
-
-  <hr>
 
     <div id="about" class="about">
       <div class="aboutIntro">
