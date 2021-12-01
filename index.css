@@ -65,10 +65,11 @@ body {
   color: #efefef;
 }
 
-.nav > .nav-links > a:hover {
-  color: white;
-  border: 2px solid white;
+.nav > .nav-links > a:hover { 
   cursor: pointer;
+  color: white;
+   background-color: #0275d8;
+   border-radius: 7px;
 }
 
 .nav > #nav-check {
@@ -158,7 +159,7 @@ body {
 .about
 {
   height: 300px;
-  margin-top: 5%;
+  margin-top: 10%;
   display: flex;
 }
 
@@ -205,6 +206,9 @@ body {
   .skill:hover{
     box-shadow: 5px 10px 8px 10px #888888 !important;
   }
+  .skill{
+    border-radius: 50px !important;
+  }
 
   .skills img{
     width: 60px;
@@ -225,7 +229,7 @@ body {
     font-size: 50px;
     font-weight: 700;
     color: #091292;;
-    padding : 2% 0 2% 0;
+    padding : 10% 0 2% 0;
     
   }
  
@@ -313,7 +317,7 @@ body {
 }
 
 .connectTo:hover{
- border: 2px solid black !important;
+ border-color: black !important;
  color: black;
  font-weight: 600;
 }
@@ -325,7 +329,7 @@ body {
    .rowImage 
    {
     width: 20%;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
    }
    .rowImage img
    {
