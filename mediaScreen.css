@@ -51,6 +51,11 @@
     flex-direction: column;
     height: 600px;
   }
+
+  .aboutIntro{
+     margin: 0% ;
+     padding: 4%;
+  }
   .about>:first-child{
     width: 100%;
  } 

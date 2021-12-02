@@ -56,39 +56,47 @@ window.onload = function() {
 };
 
 function resume(){
-  window.location="https://drive.google.com/file/d/1wVpD4JB9fk6_yE1jc1Ibgzy4shzP7hXt/view?usp=sharing"
+  window.open('https://drive.google.com/file/d/1wVpD4JB9fk6_yE1jc1Ibgzy4shzP7hXt/view?usp=sharing', '_blank').focus();
 }
 
 function glassdoorDemo()
 {
-  window.location="https://drive.google.com/file/d/186qzxpWQsU4LI6HG04HXg7bCLemlusUJ/view?usp=sharing"
+  window.open('https://drive.google.com/file/d/186qzxpWQsU4LI6HG04HXg7bCLemlusUJ/view?usp=sharing', '_blank').focus();
 }
 
 function expediaDemo()
 {
-  window.location="https://drive.google.com/file/d/186qzxpWQsU4LI6HG04HXg7bCLemlusUJ/view?usp=sharing"  
+  window.open('https://drive.google.com/file/d/186qzxpWQsU4LI6HG04HXg7bCLemlusUJ/view?usp=sharing', '_blank').focus();
 }
 
 function nutritionappDemo(){
-  window.location="https://drive.google.com/file/d/1mgRK79YEAVChnHMY-WwMth3rwcKyJpaK/view?usp=sharing"  
+  window.open('https://drive.google.com/file/d/1mgRK79YEAVChnHMY-WwMth3rwcKyJpaK/view?usp=sharing', '_blank').focus();
 }
 
 function glassdoorGit(){
-  window.location="https://github.com/kapish33/Glassdoor"
+  window.open('https://github.com/kapish33/Glassdoor', '_blank').focus();
 }
 
 
 function expediaGit(){
-  window.location="https://github.com/MukulHowale/expedia-clone"
+  window.open('https://github.com/MukulHowale/expedia-clone', '_blank').focus();
 }
 
 function nutritionGit(){
-  window.location="https://github.com/ShubhamShegokar1/Nutrition-App"
+  window.open('https://github.com/ShubhamShegokar1/Nutrition-App', '_blank').focus();
 }
 
 function gmail()
 {
-  window.location="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shubhamsandy.1@gmail.com"
+  window.open('https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shubhamsandy.1@gmail.com', '_blank').focus();
+}
+
+function glassdoorProjectLink(){
+  window.open('https://glassdoor-clony.netlify.app/', '_blank').focus();
+}
+
+function expediaProjectLink(){
+  window.open('https://expedia-clonee.netlify.app/', '_blank').focus();
 }
 
 
@@ -122,7 +130,7 @@ function goToContacts(e) {
   }
 
   function whatsApp(){
-    window.location="https://api.whatsapp.com/send?phone=917774961299"
+    window.open('https://api.whatsapp.com/send?phone=917774961299', '_blank').focus();
   }
 
   const hamburger = document.querySelector(".hamburger");

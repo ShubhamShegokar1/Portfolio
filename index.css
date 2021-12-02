@@ -358,3 +358,30 @@ body {
   margin:0;
   padding:1% 0 1% 0;
 }
+
+/****************************************************8888888888*/
+
+.social{
+ width: 60%;
+ margin: auto;
+ padding: 2% 0 2% 0;
+}
+
+.socialIcon{
+display: flex;
+margin-top: 4%;
+}
+ .socialIcon img{
+ padding-bottom: 0%;
+ padding-left: 5%;
+} 
+
+.socialIcon>:last-child
+{
+  text-decoration: none;
+  text-align: right !important;
+  padding-left: 10%;
+  font-size: 16px;
+  padding-top: 1%;
+  color: #333;
+}
