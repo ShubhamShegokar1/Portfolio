@@ -77,13 +77,16 @@
     font-size: medium;
     margin-top: 15%;
   }
+  .buttonLive{
+    margin-top: 4%;
+  }
   .projects>:first-child
   {
-     height: 530px;
+     height: 570px;
   }
   .projects>:nth-child(2)
   {
-    height: 600px;
+    height: 650px;
   }
 
   .projects>:last-child{
