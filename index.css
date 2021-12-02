@@ -300,6 +300,7 @@ body {
  .row{
    width: 90%;
    margin: auto;
+   margin-bottom: 3%;
  }
 /* 
  .row div :hover{
@@ -340,6 +341,7 @@ body {
    {
      width: 100%;
      font-size: medium;
+     text-align: left;
    }
 
    .copyright

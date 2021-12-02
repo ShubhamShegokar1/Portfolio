@@ -99,43 +99,47 @@ function expediaProjectLink(){
   window.open('https://expedia-clonee.netlify.app/', '_blank').focus();
 }
 
+function twitter(){
+  window.open('https://twitter.com/ShubhamShegoka5').focus();
+}
+
+function git(){
+  window.open('https://github.com/ShubhamShegokar1').focus();
+}
+
+function hackerRank(){
+  window.open('https://www.hackerrank.com/shubhamsandy_1').focus();
+}
+
+function linkedIn(){
+  window.open('https://www.linkedin.com/in/shubham-shegokar/').focus();
+}
 
 
 function goToProjects(e) {
-
   window.location.href="#projects";
   e.preventDefault();
   e.stopPropagation(); 
-
   }
 
-  
-
 function goToSkills(e) {
-
   window.location.href="#skills";
   e.preventDefault();
   e.stopPropagation(); 
-
   }
 
-  
-
 function goToContacts(e) {
-
   window.location.href="#contacts";
   e.preventDefault();
   e.stopPropagation(); 
-
   }
 
   function whatsApp(){
     window.open('https://api.whatsapp.com/send?phone=917774961299', '_blank').focus();
   }
 
-  const hamburger = document.querySelector(".hamburger");
+const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-
 hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
@@ -144,7 +148,6 @@ function mobileMenu() {
 }
 
 const navLink = document.querySelectorAll(".nav-link");
-
 navLink.forEach(n => n.addEventListener("click", closeMenu));
 
 function closeMenu() {
