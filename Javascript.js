@@ -66,7 +66,7 @@ function glassdoorDemo()
 
 function expediaDemo()
 {
-  window.open('https://drive.google.com/file/d/186qzxpWQsU4LI6HG04HXg7bCLemlusUJ/view?usp=sharing', '_blank').focus();
+  window.open('https://drive.google.com/file/d/17lRW52YM80usZl3o66N2RZ8dgct9VFjr/view?usp=sharing', '_blank').focus();
 }
 
 function nutritionappDemo(){
