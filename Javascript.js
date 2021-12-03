@@ -115,6 +115,10 @@ function linkedIn(){
   window.open('https://www.linkedin.com/in/shubham-shegokar/').focus();
 }
 
+function nutritionappLink(){
+  window.open('https://nutritionapp.netlify.app/').focus();
+
+}
 
 function goToProjects(e) {
   window.location.href="#projects";

@@ -66,7 +66,117 @@
   .about {
     height: 400px;
   }
+}
+
+
+/* @media screen and (min-width:100px) and (min-height:570px)
+{
+
+  .project {
+    flex-direction: column;
+    font-size: medium;
+    margin-top: 15%;
+  }
+  .buttonLive{
+    margin-top: 4%;
+  }
+  .projects>:first-child
+  {
+     height: 580px;
+  }
+  .projects>:nth-child(2)
+  {
+    height: 650px;
+  }
+
+  .projects>:last-child{
+    height: 630px;
+  }
+  .project div{
+    width: 100%; 
+   } 
   
+   .projectSnap img{
+    width: 100%;
+   }
+
+   .projectInfo
+   {
+     padding-left: 4%;
+   }
+   .connectTo{
+     margin-bottom: 5% !important;
+   }
+
+   .social {
+     width: 90%;
+     margin: auto;
+   }
+   .social img{
+     width: 40px !important;
+   }
+
+}
+
+
+@media screen and (min-width:100px) and (max-height:569px)
+{
+
+  .project {
+    flex-direction: column;
+    margin-top: 15%;
+  }
+
+
+  .projects>:first-child
+  {
+     height: 600px;
+  }
+  .projects>:nth-child(2)
+  {
+    height: 680px;
+  }
+
+  .projects>:last-child{
+    height: 640px;
+  }
+  .project div{
+    width: 100%; 
+   } 
+  
+   .projectSnap img{
+    width: 100%;
+   }
+
+   .projectInfo
+   {
+     padding-left: 4%;
+   }
+   .connectTo {
+     margin-bottom: 5% !important;
+   }
+
+   #skills{
+     padding-top: 20%;
+   }
+   .connectTo div{
+    font-size: 15px !important;
+   }
+
+   .social {
+     width: 90%;
+     margin: auto;
+   }
+   .social img{
+     width: 40px !important;
+   }
+
+} */
+@media screen and (min-width:100px) and (max-width:499px)
+{
+  #skills{
+    padding-top: 20%;
+  }
 }
 
 @media screen and (min-width:100px) and (max-width:499px)
@@ -82,15 +192,15 @@
   }
   .projects>:first-child
   {
-     height: 570px;
+     height: 590px;
   }
   .projects>:nth-child(2)
   {
-    height: 650px;
+    height: 680px;
   }
 
   .projects>:last-child{
-    height: 580px;
+    height: 660px;
   }
   .project div{
     width: 100%; 
