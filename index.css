@@ -237,10 +237,7 @@ body {
      color: #091292;;
   }
     /**********************************************************/
-   
-    .projects{
-      font-size: 16px;
-    }
+ 
    .project{
      width: 90%;
      margin: auto;
@@ -284,7 +281,7 @@ body {
   .title{
     font-weight: 800;
     color: #091292;
-    font-size: 20px;
+    font-size: 19px;
     padding: 2% 0 1% 0;
   }
   .techStack{
@@ -293,6 +290,11 @@ body {
   .areas{
     padding: 1% 0 1% 0;
     font-weight: 500;
+    font-size: 17px;
+  }
+
+  .projectInfo button{
+    font-size: 15px;
   }
 
   /********************************************/
