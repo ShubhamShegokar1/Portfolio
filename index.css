@@ -218,8 +218,8 @@ body {
   .skills
   {
       display: grid;
-      width: 90%;
-      grid-gap:0px 80px;
+      width: 70%;
+      grid-gap:0px 100px;
       margin: auto;
   }
 

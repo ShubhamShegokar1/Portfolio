@@ -56,7 +56,7 @@ window.onload = function() {
 };
 
 function resume(){
-  window.open('https://drive.google.com/file/d/1wVpD4JB9fk6_yE1jc1Ibgzy4shzP7hXt/view?usp=sharing', '_blank').focus();
+  window.open('https://drive.google.com/file/d/1eo_UvGxdSE1dufDOa6UzFy68z2LprEQt/view?usp=sharing', '_blank').focus();
 }
 
 function glassdoorDemo()
