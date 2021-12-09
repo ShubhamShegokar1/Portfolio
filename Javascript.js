@@ -120,31 +120,26 @@ function nutritionappLink(){
 
 }
 
-function goToProjects(e) {
+function goToProjects() {
   window.location.href="#projects";
-  e.preventDefault();
-  e.stopPropagation(); 
+ 
   }
 
-function goToSkills(e) {
+function goToSkills() {
   window.location.href="#skills";
-  e.preventDefault();
-  e.stopPropagation(); 
   }
 
-function goToContacts(e) {
+function goToContacts() {
   window.location.href="#contacts";
-  e.preventDefault();
-  e.stopPropagation(); 
   }
 
   function whatsApp(){
     window.open('https://api.whatsapp.com/send?phone=917774961299', '_blank').focus();
   }
 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-hamburger.addEventListener("click", mobileMenu);
+// const hamburger = document.querySelector(".hamburger");
+// const navMenu = document.querySelector(".nav-menu");
+// hamburger.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
     hamburger.classList.toggle("active");

@@ -218,16 +218,33 @@ body {
   .skills
   {
       display: grid;
-      width: 70%;
-      grid-gap:0px 100px;
+      width: 80%;
+      grid-gap:0px 50px;
       margin: auto;
+  }
+  .skills div
+  {
+     font-size: small;
+  }
+  .skillsDiv h2{
+    text-align: left;
+    width: 78%;
+    margin: auto;
+    padding-bottom: 2%;
+    font-weight: 800;
+    
+
   }
 
   .skill:hover{
     box-shadow: 5px 10px 8px 10px #888888 !important;
   }
   .skill{
-    border-radius: 50px !important;
+    border-radius: 30px !important;
+  }
+
+  .skill>:last-child{
+    color: #425f99;
   }
 
   .skills img{
@@ -239,6 +256,7 @@ body {
       background-color: rgb(253, 253, 253);
       color: #091292;
       font-size: 25px;
+      
   }
 
   /**********************************************************/
@@ -285,13 +303,8 @@ body {
 
   .projectInfo
   {
-    /* border: 2px solid blue; */
-    /* height: 200x; */
     width: 50%;
     text-align: left;
-    /* padding-left: 3%; */
-    /* border: 1px solid  #091292; */
-
   }
 
   .projectInfo img{
