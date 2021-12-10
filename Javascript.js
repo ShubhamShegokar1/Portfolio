@@ -96,7 +96,7 @@ function glassdoorProjectLink(){
 }
 
 function expediaProjectLink(){
-  window.open('https://expedia-clonee.netlify.app/', '_blank').focus();
+  window.open('https://expediaclone.netlify.app/', '_blank').focus();
 }
 
 function twitter(){
