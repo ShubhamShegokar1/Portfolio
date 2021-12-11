@@ -34,7 +34,39 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px)  and (max-width:1200px){
+  .about {
+    flex-direction: row;
+  }
+  .about>:first-child
+  {
+    width: 60%;
+  }
+  .about>:nth-child(2)
+  {
+    width: 40%;
+  }
+
+  .projects>:first-child
+  {
+     height: 310px;
+  }
+  .projects>:nth-child(2)
+  {
+    height: 380px;
+  }
+
+  .projects>:last-child{
+    height:320px;
+  }
+
+  .skills{
+    grid-template: 'a b c d'
+                    ;
+}
+}
+
+@media screen and (min-width: 1201px)  {
   .about {
     flex-direction: row;
   }
@@ -65,6 +97,7 @@
                     ;
 }
 }
+
 
 @media screen and (min-width:100px) and (max-width:999px)
 {
