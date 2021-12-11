@@ -55,11 +55,19 @@
   {
     height: 380px;
   }
-
   .projects>:last-child{
     height:320px;
   }
-
+  
+  .projects >:first-child .projectSnap img{
+    height: 310px;
+  }
+  .projects >:nth-child(2) .projectSnap img{
+    height: 380px;
+  }
+  .projects >:last-child .projectSnap img{
+    height:320px;
+  }
   .skills{
     grid-template: 'a b c d'
                     ;
@@ -90,6 +98,13 @@
 
   .projects>:last-child{
     height: 250px;
+  }
+
+  .projects >:first-child .projectSnap img{
+    height: 269px;
+  }
+  .projects >:nth-child(2) .projectSnap img{
+    height: 279px;
   }
 
   .skills{
