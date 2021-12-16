@@ -106,6 +106,9 @@
   .projects >:nth-child(2) .projectSnap img{
     height: 279px;
   }
+  .projects >:last-child .projectSnap img{
+    height: 249px;
+  }
 
   .skills{
     grid-template: 'a b c d'
