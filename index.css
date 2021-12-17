@@ -280,6 +280,13 @@ body {
     width: 50%;
   }
 
+  .project:hover{
+    border-top-right-radius: 10px 5px;
+    border-top-left-radius:  10px 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+    box-shadow: 5px 10px 8px 10px #888888 ;
+  }
   .projectSnap img{
     width: 70%;
     height: 250px;
@@ -340,13 +347,16 @@ body {
  .row div:hover{
   cursor: pointer;
 }
+.connectTo{
+  border-color: white !important ;
 
-
+}
 
 .connectTo:hover{
  border-color: black !important;
  color: black;
- font-weight: 600;
+ font-weight: 700;
+ border:  1px solid black;
 }
 
  .connect div{
