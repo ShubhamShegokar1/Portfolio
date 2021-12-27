@@ -318,16 +318,17 @@
 .newConnect{
     display: flex;
     text-align: left;
+    width: 80%;
   }
   .newConnect>:first-child{
     text-align: left;
     height: 200px;
-    width: 100%;
+    width: 120%;
   }
   
   .newConnect>:last-child{
-    padding-left: 1%;
-    width: 100%;
+    padding-left: 3%;
+    width: 80%;
 
   }
 }
