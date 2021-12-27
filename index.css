@@ -55,7 +55,7 @@ body {
 
 .nav > .nav-links > a {
   display: inline-block;
-  padding: 13px 10px 13px 10px;
+  padding: 19px 10px 13px 10px;
   text-decoration: none;
   color: blue;
 }
@@ -64,7 +64,7 @@ body {
   cursor: pointer;
   color: white;
    background-color: #0275d8;
-   border-radius: 7px;
+   border-radius: 5px;
 }
 
 .nav > #nav-check {
@@ -284,7 +284,6 @@ body {
     border-top-right-radius: 10px 5px;
     border-top-left-radius:  10px 5px;
     border: 1px solid gray;
-    cursor: pointer;
     box-shadow: 5px 10px 8px 10px #888888 ;
   }
   .projectSnap img{

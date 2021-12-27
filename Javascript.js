@@ -8,7 +8,6 @@ var TxtType = function(el, toRotate, period) {
     this.isDeleting = false;
 };
 
-
 // var message = "function disabled";
 
 // function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
