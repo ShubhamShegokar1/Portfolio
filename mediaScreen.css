@@ -116,12 +116,30 @@
 }
 }
 
-
-@media screen and (min-width:100px) and (max-width:999px)
+@media screen and (min-width:100px) and (max-width:374px)
 {
   .about {
     flex-direction: column;
-    height: 640px;
+    height: 840px;
+  }
+  .aboutIntro{
+    margin: 0% ;
+    padding: 4%;
+ }
+ .about>:first-child{
+   width: 100%;
+} 
+
+.skillsDiv h2{
+  text-align: center;
+}
+}
+
+@media screen and (min-width:375px) and (max-width:999px)
+{
+  .about {
+    flex-direction: column;
+    height: 740px;
   }
 
   .aboutIntro{
@@ -227,7 +245,7 @@
   }
 
   .projects>:last-child{
-    height: 670px;
+    height: 700px;
   }
   .project div{
     width: 100%; 

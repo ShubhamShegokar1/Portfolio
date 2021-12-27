@@ -170,10 +170,17 @@ body {
   display: flex;
 }
 
-.about h2
+
+h2{
+  font-weight: 600;
+}
+
+#name
 {
   text-align: justify;
-  font-weight: 600;
+  font-weight: 900;
+  font-size: 45px;
+  text-align: left;
 }
 
 .ProfileImg
@@ -191,7 +198,7 @@ body {
 
 .aboutIntro h1{
     color:#091292;
-    font-size: 20px;
+    font-size: 35px;
     font-weight: bold;
     font-family: monospace;
     cursor: pointer
@@ -283,7 +290,6 @@ body {
   .project:hover{
     border-top-right-radius: 10px 5px;
     border-top-left-radius:  10px 5px;
-    border: 1px solid gray;
     box-shadow: 5px 10px 8px 10px #888888 ;
   }
   .projectSnap img{
@@ -422,3 +428,4 @@ margin-top: 4%;
   padding-top: 1%;
   color: #333;
 }
+
