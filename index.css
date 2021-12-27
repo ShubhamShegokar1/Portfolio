@@ -172,7 +172,7 @@ body {
 
 
 h2{
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #name
@@ -259,11 +259,10 @@ h2{
 
    h1 
   {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     color: #091292;;
-    padding : 10% 0 2% 0;
-    
+    padding : 5% 0 4% 0;
   }
  
   h2{
@@ -354,14 +353,13 @@ h2{
 }
 .connectTo{
   border-color: white !important ;
-
 }
 
 .connectTo:hover{
  border-color: black !important;
  color: black;
  font-weight: 700;
- border:  1px solid black;
+ cursor: pointer;
 }
 
  .connect div{
@@ -371,12 +369,11 @@ h2{
    .rowImage 
    {
     width: 20%;
-    padding-bottom: 3%;
    }
    .rowImage img
-   {
-    width: 50%;
-   }
+  {
+   width: 30px;
+  }
 
    .rowImage + div
    {
@@ -429,3 +426,20 @@ margin-top: 4%;
   color: #333;
 }
 
+
+.connectIcons{
+  margin-bottom: 2%;
+}
+.connectIcons img{
+   width: 40px;
+}
+
+.newConnect{
+  width: 90%;
+  margin: auto;
+}
+
+.connectTo{
+  display: flex;
+  margin-bottom: 2%;
+}

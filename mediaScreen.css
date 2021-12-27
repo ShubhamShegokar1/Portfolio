@@ -32,6 +32,16 @@
   {
       display:hidden;
   }
+
+  .newConnect{
+    display: flex;
+    flex-direction: column ;
+  }
+
+   .first{
+    height: 360px !important;
+   }
+ 
 }
 
 @media screen and (min-width: 1000px)  and (max-width:1200px){
@@ -86,6 +96,7 @@
   {
     width: 40%;
   }
+
 
   .projects>:first-child
   {
@@ -302,4 +313,21 @@
    
 }
 
+@media screen and (min-width:1000px) 
+{
+.newConnect{
+    display: flex;
+    text-align: left;
+  }
+  .newConnect>:first-child{
+    text-align: left;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .newConnect>:last-child{
+    padding-left: 1%;
+    width: 100%;
 
+  }
+}

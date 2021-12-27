@@ -125,13 +125,20 @@ function linkedIn(){
 
 function nutritionappLink(){
   window.open('https://nutritionapp.netlify.app/').focus();
+}
 
+function leetcode(){
+  window.open('https://leetcode.com/user4647ug/').focus();
 }
 
 function goToProjects() {
   window.location.href="#projects";
- 
   }
+
+
+  function goToAbout() {
+    window.location.href="#top";
+    }
 
 function goToSkills() {
   window.location.href="#skills";
