@@ -437,9 +437,20 @@ margin-top: 4%;
 .newConnect{
   width: 90%;
   margin: auto;
+  margin-bottom: 5%;
 }
+
 
 .connectTo{
   display: flex;
-  margin-bottom: 2%;
+}
+
+
+/*******************************/
+
+.resumeButton{
+  font-size: 25px;
+  width: 50%;
+  background-color: #228888;
+  color: cyan;
 }

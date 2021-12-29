@@ -24,12 +24,10 @@
 
 @media screen and ((min-width:100px)and( max-width:999px))
 {
-  .menu
-  {
+  .menu{
       display: block;
   }
-  .NavbarHeading div
-  {
+  .NavbarHeading div{
       display:hidden;
   }
 
@@ -39,7 +37,7 @@
   }
 
    .first{
-    height: 360px !important;
+    margin-bottom: 2% !important;
    }
  
 }
@@ -321,7 +319,7 @@
     width: 80%;
   }
   .newConnect>:first-child{
-    text-align: left;
+  
     height: 200px;
     width: 120%;
   }
