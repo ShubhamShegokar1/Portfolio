@@ -1,4 +1,74 @@
 
+@media (min-width:601px) 
+{
+  .nav {
+    display: inline-block;
+    right: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
+    background-color: white;
+    border-bottom: 1px solid rgb(148, 148, 248);
+    box-shadow: 5px 2px 8px #888888;
+  }
+}
+@media (max-width:600px) 
+{
+ 
+  .nav > .nav-btn {
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: white;
+  }
+  .nav-header{
+    position: fixed;
+    z-index: 5;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+    z-index: 5;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+    color: white;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height:250;
+    overflow-y: auto;
+  }
+}
+
+
+
 
 @media screen and ( min-width:1000px)
 {
@@ -63,7 +133,7 @@
   {
     height: 380px;
   }
-  .projects>:last-child{
+  .projects>:nth-child(3){
     height:320px;
   }
   
@@ -73,7 +143,7 @@
   .projects >:nth-child(2) .projectSnap img{
     height: 380px;
   }
-  .projects >:last-child .projectSnap img{
+  .projects >:nth-child(3) .projectSnap img{
     height:320px;
   }
   .skills{
@@ -105,7 +175,7 @@
     height: 280px;
   }
 
-  .projects>:last-child{
+  .projects>:nth-child(3){
     height: 250px;
   }
 
@@ -115,9 +185,10 @@
   .projects >:nth-child(2) .projectSnap img{
     height: 279px;
   }
-  .projects >:last-child .projectSnap img{
+  .projects >:nth-child(3) .projectSnap img{
     height: 249px;
   }
+
 
   .skills{
     grid-template: 'a b c d'
@@ -200,8 +271,12 @@
     height: 650px;
   }
 
-  .projects>:last-child{
+  .projects>:nth-child(3){
     height: 650px;
+  }
+
+  .projects>:nth-child(4){
+    height: 470px;
   }
   .project div{
     width: 100%; 
@@ -253,8 +328,11 @@
     height: 720px;
   }
 
-  .projects>:last-child{
+  .projects>:nth-child(3){
     height: 700px;
+  }
+  .projects>:nth-child(4){
+    height: 500px;
   }
   .project div{
     width: 100%; 
@@ -283,6 +361,26 @@
 }
 
 
+@media screen and (min-width:480px) and (max-width:700px)
+{
+  .projects>:first-child
+  {
+     height: 610px;
+  }
+  .projects>:nth-child(2)
+  {
+    height: 650px;
+  }
+
+  .projects>:nth-child(3){
+    height: 620px;
+  }
+  .projects>:nth-child(4){
+    height: 450px;
+  }
+}
+
+
 @media screen and (min-width:500px) and (max-width:999px)
 {
   .project {
@@ -292,11 +390,13 @@
     margin-top: 15%;
   }
 
+  
+
   .project div{
     width: 100%; 
    } 
   
-   .project>:last-child{
+   .projectInfo{
      padding-left: 10%;
    } 
   

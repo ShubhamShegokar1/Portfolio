@@ -152,10 +152,22 @@ function goToContacts() {
     window.open('https://api.whatsapp.com/send?phone=917774961299', '_blank').focus();
   }
 
-// const hamburger = document.querySelector(".hamburger");
-// const navMenu = document.querySelector(".nav-menu");
-// hamburger.addEventListener("click", mobileMenu);
 
+  function TranslateGit()
+  {
+    window.open('https://github.com/ShubhamShegokar1/Language-Translator').focus();
+  }
+
+  function TranslateLink()
+  {
+    window.open('https://lantranslator.netlify.app/').focus();
+  }
+
+  function glassdoorBlogLink(){
+    window.open('https://medium.com/@shubhamsandy.1/my-work-experience-on-my-first-web-development-project-31a08b5833ea ').focus();
+  }
+
+   
 function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
