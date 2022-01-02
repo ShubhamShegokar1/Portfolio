@@ -166,6 +166,9 @@ function goToContacts() {
   function glassdoorBlogLink(){
     window.open('https://medium.com/@shubhamsandy.1/my-work-experience-on-my-first-web-development-project-31a08b5833ea ').focus();
   }
+  function expediaProjectBlog(){
+    window.open('https://mukulhowale.hashnode.dev/building-the-clone-of-expedia-website').focus();
+  }
 
    
 function mobileMenu() {
