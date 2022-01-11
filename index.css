@@ -11,7 +11,16 @@ body
     background-color: white;
 }
 
-
+#resume
+{  
+  animation: blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+  0%		{ color: #17ff0f;}
+  25%		{ color: #ff04ff;}
+  50%		{ color: #ef0a1a;}
+  100%	{ color: #06ffff;}
+  }
 
 body {
   margin: 0px;
