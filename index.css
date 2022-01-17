@@ -10,15 +10,15 @@ body
     color: #516897;
     background-color: white;
 }
-
-/* #colored-circle
+/* 
+#colored-circle
 {
   background:teal;
   height: 20px;
   width: 20px;
 }
 
-.row1{
+.row{
   display: flex;
 }
 #last_container {
@@ -92,7 +92,6 @@ body {
   color: white;
    background-color: #0275d8;
    border-radius: 5px;
-
 }
 
 .nav > #nav-check {
@@ -193,7 +192,7 @@ h2{
 
   .skill:hover{
     box-shadow: 5px 10px 8px 10px #888888 !important;
-
+    transform: rotatex(20deg) rotateY(20deg);
   }
   .skill{
     border-radius: 30px !important;
