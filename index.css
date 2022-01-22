@@ -177,10 +177,16 @@ h2{
       width: 80%;
       grid-gap:0px 50px;
       margin: auto;
+      
   }
+ 
   .skills div
   {
      font-size: small;
+     -webkit-animation-name: ShineAnimation; 
+     -webkit-animation-duration: 3s; 
+     -webkit-animation-iteration-count: infinite; 
+     -webkit-animation-timing-function: cubic-bezier(.1,.6,.9,.4); 
   }
   .skillsDiv h2{
     text-align: left;
@@ -196,8 +202,28 @@ h2{
   }
   .skill{
     border-radius: 30px !important;
+   
   }
 
+  @-webkit-keyframes ShineAnimation{ 
+    from { 
+      background-repeat:no-repeat; 
+      background-image:-webkit-linear-gradient(
+            top left,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0) 45%,
+            rgba(103, 187, 212, 0.5) 48%,
+            rgba(120, 148, 209, 0.8) 50%,
+            rgba(15, 44, 97, 0.5) 52%,
+            rgba(255, 255, 255, 0.0) 57%,
+            rgba(255, 255, 255, 0.0) 100%
+        );
+      background-position:-250px -250px; background-size: 600px 600px } 
+    to { 
+      background-repeat:no-repeat; 
+      background-position:250px 250px;
+    } 
+  }
   .skill>:last-child{
     color: #425f99;
   }
