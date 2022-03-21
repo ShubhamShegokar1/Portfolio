@@ -64,7 +64,7 @@ window.onload = function() {
 };
 
 function resume(){
-  window.open('https://drive.google.com/file/d/1eo_UvGxdSE1dufDOa6UzFy68z2LprEQt/view?usp=sharing', '_blank').focus();
+  window.open('https://drive.google.com/file/d/1qKq9a2a5EsJzCpZ3sTSvR3zE6AatQwQo/view?usp=sharing', '_blank').focus();
 }
 
 function glassdoorDemo()

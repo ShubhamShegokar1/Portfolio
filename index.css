@@ -184,7 +184,7 @@ h2{
   {
      font-size: small;
      -webkit-animation-name: ShineAnimation; 
-     -webkit-animation-duration: 3s; 
+     -webkit-animation-duration: 6s; 
      -webkit-animation-iteration-count: infinite; 
      -webkit-animation-timing-function: cubic-bezier(.1,.6,.9,.4); 
   }
