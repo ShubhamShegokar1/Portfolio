@@ -128,7 +128,7 @@ function nutritionappLink(){
 }
 
 function leetcode(){
-  window.open('https://leetcode.com/user4647ug/').focus();
+  window.open('https://leetcode.com/Shubham_Shegokar/').focus();
 }
 
 function goToProjects() {
