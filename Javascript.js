@@ -8,13 +8,13 @@ var TxtType = function(el, toRotate, period) {
     this.isDeleting = false;
 };
 
-// var message = "function disabled";
+var message = "function disabled";
 
-// function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
 
-// if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
 
-// document.onmousedown = rtclickcheck;
+document.onmousedown = rtclickcheck;
 
 TxtType.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
@@ -64,7 +64,7 @@ window.onload = function() {
 };
 
 function resume(){
-  window.open('https://drive.google.com/file/d/1qKq9a2a5EsJzCpZ3sTSvR3zE6AatQwQo/view?usp=sharing', '_blank').focus();
+  window.open('https://drive.google.com/file/d/1cnZxIQwGJY5nMydPcb_hb9yhj8z_n--8/view?usp=sharing', '_blank').focus();
 }
 
 function glassdoorDemo()
